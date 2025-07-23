@@ -1,2 +1,11 @@
-# Employee-Management-CRUD-Spring-Boot-Thymeleaf-project
-Spring Boot + Thymeleaf web app for full Employee Management (CRUD). • List, add, update, delete employee records via forms • RESTful GET/POST/PUT/DELETE methods Uses Spring Boot 3/Java 1.8+, Spring Data JPA with MySQL, Thymeleaf templates, and Bootstrap CSS. Great for learning templating, layouts, and RESTful Java web apps.
+# Employee Management CRUD – Spring Boot + Thymeleaf
+
+## Features
+- 📋 List employees — via GET `/`
+- ➕ Add new employee — POST `/saveEmployee`
+- ✏️ Update employee — PUT `/employees/{id}` using hidden `_method=put`
+- 🗑️ Delete employee — DELETE `/employees/{id}` or GET `/deleteEmployee/{id}`
+
+## Setup
+- Java 1.8, Spring Boot Starter Web, Thymeleaf, Spring Data JPA, MySQL
+- In `application.properties`:  
